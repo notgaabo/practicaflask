@@ -16,5 +16,3 @@ def home_route():
 @app.route("/home")
 def main():
     return "Esta es la ruta principal"
- 
-
