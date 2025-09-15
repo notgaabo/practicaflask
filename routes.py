@@ -3,6 +3,5 @@ from .app import main
 app= main()
 
 @app.route("/")
-def home():
-    return "Hello world"
- 
+def home_route():
+    return 1 + 2
